@@ -19,20 +19,21 @@ Contact: [Reshad Hosseini](mailto:reshad.hosseini@ut.ac.ir) or  [Mohammad Hamed]
 
 <pre>
 
-./ The top directory with README.md
- |data                      - data directory
-   |--- airquality/       
-   |--- brainq/         
-   |--- coil-100/
-   |--- hsi/
-   |--- yale/
-   load_coil.m              - modified version of "load_boats" provided by DTucker authors to load coil-100 dataset
- |src/                      - source codes
-   |--- rpcd.m              - pure RPCD method
-   |--- rpcd_plus.m         - RPCD method with precision update
- |test/                     - test codes
-   |--- test_real.m         - a script for test on real data
-   |--- test_synthesis.m    - a script for test on synthesis data
+.
+├── data                    # data directory
+│   ├── airquality/      
+│   ├── brainq/         
+│   ├── coil-100/
+│   ├── hsi/
+│   ├── yale/
+│   └── load_coil.m        # modified version of "load_boats" provided by DTucker authors to load coil-100 dataset
+├── src/                  
+│   ├── rpcd.m             # RPCD method
+│   └── rpcd_plus.m        # RPCD method with precision update	
+├── test/                  
+│	├── test_real.m        # a script for test on real data
+│   └── test_synthesis.m   # a script for test on synthesis data
+└── addPaths.m
 
 </pre>
 
